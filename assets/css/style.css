@@ -1,0 +1,241 @@
+
+/* Set default values for all elements. Tells site to include border and padding
+when you give an element height and width. Also set default padding and margin to 0 */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* defines background color for webpage */
+body {
+    background-color: #d9dcd6;
+}
+
+/* Defines nav bar element color, background color, font style and padding */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* Makes "Horiseon" header inline and defines the font size */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* Gives color to "seo" in Horiseon main header element */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* Defines the style for the top nav bar */
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* Makes list for nav bar have no markers */
+.header div ul {
+    list-style-type: none;
+}
+
+/* Inline block for nav bar with left margin */
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Make nav bar link text white */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Font size for descriptions */
+p {
+    font-size: 16px;
+}
+
+/* Main image banner for webpage  */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+/* style for "content" in page, divided into 3 sections taking up 75% of width, left aligned */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Styling for Search Engine Optimization section description including colors, font style and padding */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* Styling for Online Reputation Management section description including colors, font style and padding */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Styling for Social Media Marketing section description including colors, font style and padding */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+
+/* Style for left-aligned images in section */ 
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Style for right aligned images in section */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+
+/* Styling for right aside */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Define style for Lead Generation of right aside */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Define style for Brand Awareness of right aside */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Define style of Cost Management of right aside */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Styling for Lead Generation header */
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Styling for Brand Awareness header */
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Styling for Cost Management header */
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Styling for Lead generation icon, displayed as a block with absolute width*/
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Styling for Brand Awareness icon, displayed as a block with absolute width*/
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*Styling for Cost Management icon, displayed as a block with absolute width */
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+
+/* Define style / height of image for Search Engine Optimization section */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+/* Define style / height of image for Online Reputation section */
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+/* Define style / height of image for Social Media Marketing section */
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/* Define style of Search Engine Optimization section header */
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Define style of Online Reputation Management section header */
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Define style of Social Media Marketing section header */
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
+/* Define style of footer description */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Define style of footer header */
+.footer h2 {
+    font-size: 20px;
+}
