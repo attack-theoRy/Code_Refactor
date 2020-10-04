@@ -7,6 +7,17 @@ when you give an element height and width. Also set default padding and margin t
     margin: 0;
 }
 
+/* Make nav bar link text white */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Font size for descriptions */
+p {
+    font-size: 16px;
+}
+
 /* defines background color for webpage */
 body {
     background-color: #d9dcd6;
@@ -51,16 +62,6 @@ body {
     margin-left: 25px;
 }
 
-/* Make nav bar link text white */
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-/* Font size for descriptions */
-p {
-    font-size: 16px;
-}
 
 /* Main image banner for webpage  */
 .hero {
@@ -78,6 +79,24 @@ p {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+}
+
+/* Define style of Search Engine Optimization section header */
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Define style of Online Reputation Management section header */
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Define style of Social Media Marketing section header */
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 /* Styling for Search Engine Optimization section description including colors, font style and padding */
@@ -122,6 +141,21 @@ p {
     margin-left: 25px;
 }
 
+/* Define style / height of image for Search Engine Optimization section */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+/* Define style / height of image for Online Reputation section */
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+/* Define style / height of image for Social Media Marketing section */
+.social-media-marketing img {
+    max-height: 200px;
+}
+
 
 /* Styling for right aside */
 .benefits {
@@ -133,24 +167,6 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-}
-
-/* Define style for Lead Generation of right aside */
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* Define style for Brand Awareness of right aside */
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* Define style of Cost Management of right aside */
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
 }
 
 /* Styling for Lead Generation header */
@@ -169,6 +185,24 @@ p {
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
+}
+
+/* Define style for Lead Generation of right aside */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Define style for Brand Awareness of right aside */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Define style of Cost Management of right aside */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
 }
 
 /* Styling for Lead generation icon, displayed as a block with absolute width*/
@@ -193,39 +227,11 @@ p {
 }
 
 
-/* Define style / height of image for Search Engine Optimization section */
-.search-engine-optimization img {
-    max-height: 200px;
-}
 
-/* Define style / height of image for Online Reputation section */
-.online-reputation-management img {
-    max-height: 200px;
+/* Define style of footer header */
+.footer h2 {
+    font-size: 20px;
 }
-
-/* Define style / height of image for Social Media Marketing section */
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-/* Define style of Search Engine Optimization section header */
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* Define style of Online Reputation Management section header */
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* Define style of Social Media Marketing section header */
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
 
 /* Define style of footer description */
 .footer {
@@ -235,7 +241,3 @@ p {
     text-align: center;
 }
 
-/* Define style of footer header */
-.footer h2 {
-    font-size: 20px;
-}
